@@ -1,0 +1,61 @@
+header {
+    width: 100vw; 
+}
+
+header .top-tittle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    height: 15vh ;
+    
+}
+
+.top-tittle .link-home{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.top-tittle h3 {
+    font-size: 1.3vw;
+    font-weight: normal;
+}
+
+.top-tittle h3 span{
+    font-size: 1.8vw;
+    color: var(--colorButton);
+    font-weight: bold;
+}
+
+.header-link ul{
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+.header-link ul li{
+    
+    text-align: center;
+    width: 120px;
+    font-size: 18px;
+    transition: 150ms ease-in;
+    padding: 0.2em 0.2em;
+}
+
+
+.header-link ul li:nth-child(2) {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    
+}
+.header-link ul li .link{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header-link ul li .link:hover{
+    font-weight: 600;
+    color: var(--colorButton);
+   
+}

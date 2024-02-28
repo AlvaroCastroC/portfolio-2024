@@ -1,0 +1,146 @@
+
+
+.banner {
+    width: 100%;
+}
+
+.banner::after {
+    content: "";
+    border-bottom: 2px solid var(--colorBorderLine);
+    box-shadow: 2px 2px 2px #00000093;
+    margin: 0 auto;
+    width: 20vw;
+    display: flex;
+
+}
+
+.cntt-banner{
+    
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.banner .cntt-banner .foto{
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+    
+}
+
+.cntt-banner .cntt-title {
+    width: 400px;
+}
+
+.cntt-banner .cntt-title h1 {
+   color: var(--colorTittle);
+   font-size: 5em;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+.cntt-banner .cntt-title h3 {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--colorTittle);
+}
+
+
+.cntt-banner .cntt-title p {
+    font-family: "Quicksand";
+    text-align: justify;
+    text-indent: 2.3vw;
+    font-size: 1.2vw;
+    line-height: 1.3;
+    font-weight: 600;
+    color: var(--colorText);
+}
+
+.cntt-banner .btn-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+
+}
+
+.cntt-banner .banner-link {
+    font-size: 1.5em;
+    font-weight: 500 ;
+    font-family: "Quicksand";
+    padding: 5px 5px;
+    width: 150px;
+    border: none;
+    background-color: transparent;
+    color: var(--colorText);
+    text-decoration: none;
+    
+}
+
+.banner-link:hover{
+    color: var(--colorButton);
+}
+
+.cntt-banner .btn-container img {
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+}
+
+
+.bibliograph{
+    background-color: #ffffffa1;
+    
+    padding: 50px 80px;
+    
+}
+
+
+
+.cntt-bibliograph{
+    width: 700px;
+    padding: 20px 50px 0 10px;
+}
+
+.bibliograph .cntt-bibliograph h2 {
+    color: var(--colorTittle);
+    font-family: "Quicksand";
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 2.3em;
+}
+
+.bibliograph .cntt-bibliograph p {
+    line-height: 1.59;
+    text-align: justify;
+    text-indent: 2.3vw;
+    font-size: 1em;
+    margin: 20px 0 20px 0;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Quicksand";
+    
+    
+}
+
+
+.cntt-bibliograph h4 {
+    color: var(--colorSubtittle);
+    font-size: 1.4em;
+    margin-top: 50px;
+}
+
+.cntt-bibliograph h4::after {
+    content: "";
+    border-bottom: 1px solid var(--colorBorderLine);
+    box-shadow: 2px 2px 2px #00000093;
+    margin-top: 15px;
+    margin-left: -15px;
+    width: 100px;
+    display: flex;
+}

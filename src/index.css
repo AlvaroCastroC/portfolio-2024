@@ -1,0 +1,42 @@
+:root{
+  --colorTittle: #484594;
+  --colorSubtittle: #2a9d8f;
+  --colorButton: #e76f51;
+  --colorBorderLine: #a2a5ce;
+  --colorText: #111010;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/fonts/Montserrat-VariableFont_wght.ttf") format("truetype"), url("../public/fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("../public/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+
+
+}
+
+body {
+  background-color: rgb(245, 245, 235);
+  font-family: "Montserrat";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+main{
+  width: 100vw;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

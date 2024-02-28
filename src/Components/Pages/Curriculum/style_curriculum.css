@@ -1,0 +1,71 @@
+.section-curriculum {
+    width: 100%;
+    font-family: "Quicksand";
+    margin: 80px 0;
+}
+
+
+.section-curriculum h1{
+    color: var(--colorTittle);
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.section-curriculum .contt-curriculum {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 30px;
+    min-height: 50vh;
+}
+
+.section-curriculum .contt-curriculum .curriculum-tittle {
+    width: calc((100% - 20px ) /2);
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.section-curriculum .contt-curriculum .curriculum-tittle h2{
+    font-size: 2em;
+    line-height: 1;
+    color: var(--colorButton);
+}
+
+.section-curriculum .contt-curriculum .contt-exp {
+    width: calc((100% - 20px ) /2);
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.section-curriculum .contt-curriculum .contt-exp div {
+    max-width: 350px;
+    margin-bottom: 50px;
+}
+
+.section-curriculum .contt-curriculum .contt-exp h4 {
+    color: var(--colorSubtittle);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.section-curriculum .contt-curriculum .contt-exp span {
+    font-weight: normal;
+    color: var(--colorText);
+}
+
+.section-curriculum .skills {
+    height: 90vh;
+}
+
+
+.job::after, .education::after {
+    content: "";
+    display: block;
+    margin: 50px auto 0 auto ;
+    
+   
+    width: 100%;
+    border: 1px solid #00000011;
+}

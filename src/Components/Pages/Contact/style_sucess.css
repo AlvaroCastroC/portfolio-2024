@@ -1,0 +1,53 @@
+.contt-sucess {
+    height: 25vh;
+    margin: 20vh auto;
+}
+
+.contt-sucess  h2 {
+    font-size: 2.5em;
+    color: var(--colorTittle);
+    margin-bottom: 20px;
+    font-family: "Quicksand";
+}
+
+.contt-sucess p{
+    color: var(--colorSubtittle);
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: "Quicksand";
+}
+
+.contt-sucess .button-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contt-sucess .button-container p{
+    color: var(--colorButton);
+    font-size: 1.1em;
+    line-height: 1.2;
+    margin-top: 20px;
+    font-family: "Quicksand";
+}
+
+.contt-sucess .button-container button {
+    width: 180px;
+    height: 35px;
+    font-size: 1em;
+    margin: 20px 0;
+    background-color: var(--colorSubtittle);
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px #000;
+    cursor: pointer;
+}
+
+
+.contt-sucess .button-container button:hover {
+    background-color: var(--colorButton);
+
+}

@@ -1,0 +1,125 @@
+.contact-container {
+    width: 100vw;
+   
+}
+
+.contact-container .contact{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20vh auto;
+    height: 100%;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    width: 500px;
+}
+
+.phone .phone-tittle {
+    margin-bottom: 100px;
+}
+
+.phone .phone-tittle h2{
+    font-size: 2.5em;
+    color: var(--colorTittle);
+    margin-bottom: 20px;
+}
+
+.phone .phone-tittle p{
+    font-size: .9em;
+    max-width: 400px;
+    font-family: "Quicksand";
+}
+
+.phone .phone-number h4{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: var(--colorSubtittle);
+}
+
+.phone .phone-number p{
+    font-size: 1.2em;
+    font-family: "Quicksand";
+}
+
+form {
+    display: block;
+    width: 500px;
+}
+
+.form  h2{
+    font-size: 2.5em;
+    color: var(--colorTittle);
+    margin-bottom: 20px;
+}
+
+form input, 
+form label, 
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+
+}
+
+form input::placeholder, textarea::placeholder{
+    color: var(--colorSubtittle);
+}
+
+form label {
+    color: #000111;
+   margin: 0.8rem;
+   font-family: "Quicksand";
+    
+}
+
+form input, form #mensagem {
+    margin-bottom: 1rem;
+    border-radius: 8px ;
+    border: 1px solid transparent;
+    padding: 0.8rem;
+    transition: border-color 0.2s;
+}
+
+
+form #name{
+    text-transform: capitalize;
+}
+
+form #mensagem{
+    font: inherit;
+    resize: vertical;
+    min-height: 10rem;
+    
+      
+}
+
+form input:hover, form input:focus,
+form #mensagem:hover, form #mensagem:focus{
+    outline: unset;
+    border-color: var(--colorButton);
+    
+}
+
+form button {
+    display: block;
+    padding: 1rem;
+    background-color: var(--colorButton);
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form button:hover,
+form button:focus{
+    outline: unset;
+    background: var(--colorTittle);
+}
